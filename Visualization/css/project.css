@@ -1,0 +1,63 @@
+#map {
+      background-color: #fff;
+    }
+    .background {
+      fill: none;
+      pointer-events: all;
+    }
+    #countries, #states {
+      fill: #cde;
+      stroke: #fff;
+      stroke-linejoin: round;
+      stroke-linecap: round;
+    }
+    #countries .active, #states .active {
+      fill: #C9D9F0;
+    }
+    #cities {
+      stroke-width: 0;
+    }
+    .city {
+      fill: #345;
+      stroke: #fff;
+    }
+    pre.prettyprint {
+      border: 1px solid #ccc;
+      margin-bottom: 0;
+      padding: 9.5px;
+    }
+
+    #Models{
+      width:200px;
+      height:30px;
+      stroke-width:2px;
+      margin-left:20px;
+      font-family: "Calibri";
+      font-size:20px;
+      font-weight:"bold";
+    }
+
+    #smtag{
+      stroke-width:2px;
+      margin-left:500px;
+      font-family: "Calibri";
+      font-size:20px;
+      font-weight:"bold";
+    }
+
+    select option {
+      width:100px;
+      margin:40px;
+      color:#000;
+      text-shadow:0 1px 0 rgba(0,0,0,0.4);
+      font-family: "Calibri";
+      font-size:20px;
+      font-weight:"bold";
+    }
+
+    h2{
+        font-size:30px;
+        font-weight:700;
+        font-family:"Calibri";
+        text-align: center;
+    }
